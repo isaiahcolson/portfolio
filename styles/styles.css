@@ -300,3 +300,44 @@ nav a:hover {
     right: 48px;
     z-index: -1;
 }
+
+
+
+
+
+/* work SECTION */
+.featured-work {
+    padding: 108px 24px;
+}
+
+.featured-work h2 {
+    text-align: right;
+    margin-right: 216px;
+}
+
+.project {
+    margin: 54px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project img {
+    width: 38vw;
+    margin-right: -40px;
+}
+
+.project-content {
+    background-color: var(--black);
+    color: var(--white);
+    width: 416px;
+    padding: 36px;
+}
+
+.project-content h4 {
+    padding-bottom: 8px;
+}
+
+.project-content p {
+    padding: 8px 0;
+}
