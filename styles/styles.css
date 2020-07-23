@@ -308,15 +308,18 @@ nav a:hover {
 /* work SECTION */
 .featured-work {
     padding: 108px 24px;
+    padding-bottom: 0;
+    position: relative;
 }
 
 .featured-work h2 {
     text-align: right;
     margin-right: 216px;
+    margin-bottom: 54px;
 }
 
 .project {
-    margin: 54px 0;
+    margin-bottom: 108px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -325,6 +328,12 @@ nav a:hover {
 .project img {
     width: 38vw;
     margin-right: -40px;
+}
+
+.project-right img {
+    margin-right: 0;
+    margin-left: -40px;
+    z-index: -1;
 }
 
 .project-content {
@@ -340,4 +349,27 @@ nav a:hover {
 
 .project-content p {
     padding: 8px 0;
+}
+
+.project-links {
+    margin-top: 12px;
+}
+
+.project-content a {
+    padding-left: 12px;
+    font-size: 20px;
+    color: var(--white);
+    transition: 0.3s ease;
+}
+
+.project-content a:hover {
+    color: var(--accent);
+}
+
+#work-bg {
+    position: absolute;
+    width: 571px;
+    left: 48px;
+    z-index: -1;
+    top: 96px;
 }
