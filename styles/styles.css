@@ -193,11 +193,15 @@ nav a:hover {
     z-index: 3;
 }
 
-.about-container p:nth-child(2) {
-    margin: 24px 0;
+.about-container h2 {
+    margin-bottom: 24px;
 }
 
 .about-container p:nth-child(3) {
+    margin: 24px 0;
+}
+
+.about-container p:nth-child(4) {
     margin-bottom: 12px;
 }
 
@@ -225,4 +229,74 @@ nav a:hover {
     width: 100vw;
     z-index: -2;
     height: 100%;
+}
+
+
+
+
+
+/* experience SECTION */
+.experience {
+    padding: 120px 20px;
+    position: relative;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: center;
+}
+
+.experience-left {
+    width: 30vw;
+    margin: 0 18px;
+}
+
+.experience-left p {
+    margin-top: 24px;
+}
+
+.experience-left a {
+    text-decoration: none;
+    font-weight: var(--medium);
+    color: var(--accent);
+    transition: 0.2s ease;
+}
+
+.experience-left a:hover {
+    color: var(--accent-dark);
+}
+
+.experience-right {
+    width: 30vw;
+    margin: 0 18px;
+}
+
+.experience-right > div:first-child {
+    margin-bottom: 48px;
+}
+
+.experience-right h4 {
+    margin: 16px 0;
+}
+
+.experience-right img {
+    margin-top: 72px;
+}
+
+.gray-underlay {
+    background-color: var(--gray);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -2;
+    height: 100%;
+}
+
+#experience-bg {
+    position: absolute;
+    width: 1169px;
+    top: 0;
+    right: 48px;
+    z-index: -1;
 }
