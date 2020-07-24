@@ -110,7 +110,6 @@ nav a {
 }
 
 nav a:hover {
-    /* color: var(--accent); */
     color: var(--black);
 }
 
@@ -358,12 +357,12 @@ nav a:hover {
 .project-content a {
     padding-left: 12px;
     font-size: 20px;
-    color: var(--white);
+    color: var(--gray-dark);
     transition: 0.3s ease;
 }
 
 .project-content a:hover {
-    color: var(--accent);
+    color: var(--white);
 }
 
 #work-bg {
@@ -372,4 +371,72 @@ nav a:hover {
     left: 48px;
     z-index: -1;
     top: 96px;
+}
+
+
+
+
+
+/* contact SECTION */
+.contact {
+    /* background-color: var(--black); */
+    color: var(--white);
+    padding: 84px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.contact p {
+    padding: 36px 0;
+    width: 350px;
+}
+
+.contact a {
+    font-size: var(--padded-button-size);
+    font-weight: var(--regular);
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--accent);
+    padding: 8px 18px;
+    transition: 0.3s ease;
+    border-radius: 7px;
+}
+
+.contact a:hover {
+    background-color: var(--accent-dark);
+}
+
+#contact-bg {
+    position: absolute;
+    width: 866px;
+    right: 0;
+    bottom: 0px;
+    z-index: -1;
+}
+
+
+
+
+
+/* footer SECTION */
+footer {
+    background-color: var(--black);
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+}
+
+footer a {
+    color: var(--gray-dark);
+    font-size: 32px;
+    padding: 0 12px;
+    transition: 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--white);
 }
