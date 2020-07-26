@@ -118,6 +118,10 @@ nav i {
     display: none;
 }
 
+#nav-bars {
+    display: none;
+}
+
 .mobile-nav {
     width: 0px;
     position: fixed;

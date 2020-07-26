@@ -100,6 +100,10 @@ nav ul {
     padding: 0 25px;
 }
 
+nav ul a {
+    display: none;
+}
+
 nav a {
     text-decoration: none;
     color: var(--gray-dark);
@@ -111,6 +115,14 @@ nav a {
 
 nav a:hover {
     color: var(--black);
+}
+
+#nav-bars {
+    display: flex;
+}
+
+.mobile-nav a {
+    color: var(--gray);
 }
 
 
