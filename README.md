@@ -8,7 +8,7 @@ Here is my portfolio built in July 2020. You can view the working site [here](ht
 1. I started my portfolio by finding some design references and inspiration. I assembled a few sites that I could use as a guide if I got stuck.
 
 2. I then approached designing process by building out a color palette, here is an image of what I wanted to use and how I wanted to use it.
-<!-- TODO add image of color palette -->
+![Watch Later Wireframes](/assets/portfolio-color-palette.png)
 
 3. After I knew my color palette, I created a few references of how to use the colors together as backgrounds, buttons, etc...
 <!-- TODO add design reference images -->
