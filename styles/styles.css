@@ -340,6 +340,7 @@ nav a:hover {
     color: var(--white);
     width: 416px;
     padding: 36px;
+    z-index: 2;
 }
 
 .project-content h4 {
