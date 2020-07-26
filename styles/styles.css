@@ -71,6 +71,10 @@ ul {
     margin: 0;
 }
 
+a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 
 
 
@@ -116,6 +120,7 @@ nav a:hover {
 nav i {
     cursor: pointer;
     display: none;
+    font-size: 18px;
 }
 
 #nav-bars {
@@ -133,7 +138,7 @@ nav i {
     background-color: var(--black);
     overflow-x: hidden;
     transition: 0.3s ease;
-    padding-top: 32px;
+    padding-top: 60px;
 }
 
 .mobile-nav a {
@@ -152,7 +157,7 @@ nav i {
     cursor: pointer;
     position: absolute;
     top: 18px;
-    right: 25px;
+    right: 27px;
     font-size: 18px;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
