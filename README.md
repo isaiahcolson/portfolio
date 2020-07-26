@@ -11,10 +11,10 @@ Here is my portfolio built in July 2020. You can view the working site [here](ht
 ![Watch Later Wireframes](/assets/portfolio-color-palette.png)
 
 3. After I knew my color palette, I created a few references of how to use the colors together as backgrounds, buttons, etc...
-<!-- TODO add design reference images -->
+![Watch Later Wireframes](/assets/portfolio-color-pairings.png)
 
 4. Now that I had some personal guidelines, I was able to set the layout of the site with a wireframe. I started with a low fidelity layout and then created a high fidelity. With a clear look at how I wanted the site to look, I was able to easily add and style all sections of my portfolio in a fration of the time.
-<!-- TODO add wireframes -->
+![Watch Later Wireframes](/assets/portfolio-wireframes.png)
 
 5. I began writing code after my wireframes were complete. This was a difficult process because there were some items that looked good on my wireframe that did not look good actualized. If I did come to any blocks creatively, I would revert back to my wireframe and solve creative issues there. This allowed me to easily move and place elements in Figma as opposed to writing in code and guessing.
 
