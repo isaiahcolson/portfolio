@@ -113,6 +113,56 @@ nav a:hover {
     color: var(--black);
 }
 
+nav i {
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav {
+    width: 0px;
+    position: fixed;
+    z-index: 7;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background-color: var(--black);
+    overflow-x: hidden;
+    transition: 0.3s ease;
+    padding-top: 32px;
+}
+
+.mobile-nav a {
+    text-decoration: none;
+    color: var(--gray-dark);
+    font-size: 18px;
+    font-weight: var(--regular);
+    padding: 16px 32px;
+    transition: 0.3s ease;
+    display: block;
+}
+
+.mobile-nav i {
+    color: var(--gray-dark);
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 18px;
+    right: 30px;
+}
+
+.mobile-nav a:hover {
+    color: var(--white);
+}
+
+.mobile-nav-bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    top: 0;
+    z-index: -6;
+}
+
 
 
 

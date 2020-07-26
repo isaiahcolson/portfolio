@@ -12,6 +12,8 @@
     <link rel="stylesheet" media="screen and (max-width: 560px)" href="styles/large-phone.css">
     <link rel="stylesheet" media="screen and (max-width: 425px)" href="styles/mobile-small.css">
     <script src="https://kit.fontawesome.com/d1a682b5fb.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="/scripts/app.js" defer ></script>
     <title>Isaiah Colson</title>
 </head>
 
@@ -23,6 +25,7 @@
                 <li><a href="#experience-section">Experience</a></li>
                 <li><a href="#work-section">Work</a></li>
                 <li><a href="#contact-section">Contact</a></li>
+                <li><i id="nav-bars" class="fas fa-bars"></i></li>
             </ul>
             <a href="/"><img src="/images/nav-logo.png" alt="Isaiah Logo"></a>
         </nav>
@@ -147,6 +150,15 @@
             <img id="contact-bg" src="/images/contact-bg.png" alt="Contact Background">
             <div class="black-underlay"></div>
         </section>
+
+        <div class="mobile-nav-bg"></div>
+        <div class="mobile-nav">
+            <i class="fas fa-times close-button"></i>
+            <a href="#about-section">About</a>
+            <a href="#experience-section">Experience</a>
+            <a href="#work-section">Work</a>
+            <a href="#contact-section">Contact</a>
+        </div>
     </main>
 
     <footer>
