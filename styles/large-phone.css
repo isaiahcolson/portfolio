@@ -202,7 +202,7 @@ nav a:hover {
 
 .about-container {
     padding: 120px 0;
-    width: 75vw;
+    width: 80vw;
     margin: 0 auto;
     z-index: 3;
 }
@@ -225,7 +225,7 @@ nav a:hover {
 
 .about-list ul {
     list-style: none;
-    padding: 0 12px;
+    padding: 0 8px;
 }
 
 #about-bg {

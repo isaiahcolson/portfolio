@@ -190,7 +190,7 @@ nav a:hover {
 
 .about-container {
     padding: 96px 0;
-    width: 75vw;
+    width: 85vw;
     margin: 0 auto;
     z-index: 3;
 }
@@ -209,11 +209,12 @@ nav a:hover {
 
 .about-list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .about-list ul {
     list-style: none;
-    padding: 0 12px;
+    padding: 0 8px;
 }
 
 #about-bg {
